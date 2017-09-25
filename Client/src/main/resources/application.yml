@@ -1,0 +1,11 @@
+server:
+  port: 8090
+
+management:
+  port: 8091
+  security:
+    enabled: false
+
+logging:
+  level:
+    org.springframework.web: WARN

@@ -1,0 +1,18 @@
+version: "2"
+services:
+  client:
+    build: "Client"
+    ports:
+      - "8090:8090"
+      - "8091:8090"
+    expose:
+      - 8090
+      - 8091
+  admin:
+    build: "Admin"
+    ports:
+      - "8080:8080"
+    expose:
+      - 8080
+    links:
+      - client

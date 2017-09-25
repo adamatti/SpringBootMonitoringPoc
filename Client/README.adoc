@@ -1,0 +1,5 @@
+### How to test
+Call http://localhost:8090/person
+
+### References
+* https://spring.io/guides/gs/actuator-service[Actuator Service]

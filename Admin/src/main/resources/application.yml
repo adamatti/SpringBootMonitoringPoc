@@ -1,0 +1,18 @@
+management:
+  security:
+    enabled: false
+
+spring:
+  cloud:
+    discovery:
+      client:
+        simple:
+          instances:
+            test:
+              - uri: http://client:8091
+                metadata:
+                  management.context-path: /application
+
+logging:
+  level:
+    org.springframework.web: WARN

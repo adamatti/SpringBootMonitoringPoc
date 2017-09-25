@@ -1,0 +1,12 @@
+Sample following https://piotrminkowski.wordpress.com/2017/06/26/monitoring-microservices-with-spring-boot-admin/[this tutorial]
+
+### Requirements
+* docker
+* docker-compose
+
+### How to run
+`docker-compose up`
+
+### URLs
+* http://localhost:8090/person - Test client
+* http://localhost:8080 - Admin
